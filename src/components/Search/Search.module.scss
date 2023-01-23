@@ -1,0 +1,30 @@
+.root {
+  position: relative;
+  left: -50px;
+
+  input {
+    width: 330px;
+    margin-right: 330px;
+    padding: 10px 20px;
+    border-radius: 15px;
+    font-size: 18px;
+    opacity: 0.3;
+    border: 1px solid black;
+
+    &:focus{
+      opacity: 0.8;
+    }&:active{
+      opacity: 0.8;
+    }
+  }
+}
+
+.icon {
+  width: 22px;
+  height: 22px;
+  opacity: 0.3;
+  position: absolute;
+  left: 295px;
+  top: 12px;
+}
+
